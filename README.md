@@ -1,5 +1,5 @@
 # Línea De Tiempo (MOOCS UTB)
-Desarrollo de la línea de tiempo a utilizar en los MOOCS solicitados por a la unidad CEaD.
+Desarrollo de la línea de tiempo a utilizar en los MOOCS solicitados a la unidad CEaD.
 
 ## Creditos
   - Nelly Romero Cabarcas
