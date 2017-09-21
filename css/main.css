@@ -59,8 +59,8 @@ body{
   border: solid  3px #000;
 }
 
-.contenedor-info-anos:hover *{
- display: block !important;
+.contenedor-info-anos:hover .contenedor-info-tiempo{
+  display: block !important;
 }
 
 .display-none{
@@ -109,16 +109,19 @@ body{
   width: 280px;
   border-radius: 5%;
   position: absolute;
-  border: 6px solid #fff;.
+  border: 6px solid #fff;
+}
+.contenedor-left-margin{
+  left: -10px;
 }
 .contenedor-up{
- bottom: calc(100%/0.7);
+ bottom: calc(100%/0.6);
 }
 .contenedor-down{
  top: calc(100%/0.4);
 }
 .contenedor-right{
- right: -10px;
+ right: -15px;
 }
 
 .text-info{
@@ -163,4 +166,27 @@ body{
 }
 .ul-info{
   padding-left: 15px;
+}
+
+.triangle{
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+}
+.triangle-down{
+  border-color: white transparent transparent  transparent;
+  bottom: -40px;
+}
+.triangle-up{
+  border-color: transparent transparent white transparent;
+  top: -40px;
+  right: 0px;
+}
+.triangle-left{
+  left: 0px !important;
+}
+.triangle-rigth{
+  right: 0px !important;
 }
