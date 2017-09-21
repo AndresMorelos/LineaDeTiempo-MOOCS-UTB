@@ -47,12 +47,9 @@ body{
   right: calc(-50%/3);
 }
 
-.izq:hover{
-  border: solid 3px #000;
-}
 
 .contenedor-der:hover{
-  border: solid 3px #000;
+  //border: solid 3px #000;
 }
 
 .contenedor-info-anos:hover{
