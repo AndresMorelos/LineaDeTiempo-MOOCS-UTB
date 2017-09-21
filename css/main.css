@@ -24,7 +24,7 @@ body{
   border-radius: 100%;
   width: 60px;
   position: absolute;
-  top: calc(700px/2.5);
+  top: calc(700px/2.15);
 }
 .contenedor-info-anos{
   height: 30px;
