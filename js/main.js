@@ -6,19 +6,20 @@ var contenedor_info_anos_der = document.getElementsByClassName('contenedor-info-
 var regresar_button = document.getElementById('regresar-button');
 var div_anterior_oculto = [];
 var div_mostrados = [];
-function mostrar_contenido_izquierda() {
+function mostrar_contenido_level1() {
     fecha_1970_1977.classList.add("display-none");
     fecha_2000_2025.classList.add("display-none");
-    contenedor_info_anos_izq.classList.remove("display-none");
     regresar_button.classList.remove("display-none");
+}
+function mostrar_contenido_izquierda() {
+    mostrar_contenido_level1();
+    contenedor_info_anos_izq.classList.remove("display-none");
     div_anterior_oculto.push(fecha_1970_1977, fecha_2000_2025);
     div_mostrados.push(contenedor_info_anos_izq, regresar_button);
 }
 function mostrar_contenido_derecha() {
-    fecha_1970_1977.classList.add("display-none");
-    fecha_2000_2025.classList.add("display-none");
+    mostrar_contenido_level1();
     contenedor_info_anos_der.classList.remove("display-none");
-    regresar_button.classList.remove("display-none");
     div_anterior_oculto.push(fecha_1970_1977, fecha_2000_2025);
     div_mostrados.push(contenedor_info_anos_der, regresar_button);
 }
