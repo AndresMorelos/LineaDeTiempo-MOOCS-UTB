@@ -97,6 +97,41 @@ body{
 .contenedor-10{
   left: calc(100%/1.07);
 }
+
+/*Conetenedores derecha*/
+.contenedor-1-der{
+  left: calc(100%/40);
+}
+.contenedor-2-der{
+  left: calc(100%/10);
+}
+.contenedor-3-der{
+  left: calc(100%/5.6);
+}
+.contenedor-4-der{
+  left: calc(100%/3.9);
+}
+.contenedor-5-der{
+  left: calc(100%/2.9);
+}
+.contenedor-6-der{
+  left: calc(100%/2.3);
+}
+.contenedor-7-der{
+  left: calc(100%/1.9);
+}
+.contenedor-8-der{
+  left: calc(100%/1.6);
+}
+.contenedor-9-der{
+  left: calc(100%/1.39);
+}
+.contenedor-10-der{
+  left: calc(100%/1.21);
+}
+.contenedor-11-der{
+  left: calc(100%/1.07);
+}
 /* info años contenedores izquierda */
 .p-center{
   right: calc(-50%/0.5);
