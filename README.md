@@ -1,6 +1,8 @@
 # Línea De Tiempo (MOOCS UTB)
 Desarrollo de la línea de tiempo a utilizar en los MOOCS solicitados a la unidad CEaD.
 
+[![codebeat badge](https://codebeat.co/badges/9ae4c9aa-bb28-436f-94eb-4739d1838fd7)](https://codebeat.co/projects/github-com-andresmorelos-lineadetiempo-moocs-utb-master)
+
 ## Creditos
   - Nelly Romero Cabarcas
   - Andrés Morelos Negrette
