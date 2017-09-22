@@ -187,3 +187,13 @@ body{
 .triangle-rigth{
   right: 0px !important;
 }
+
+#regresar-button{
+  padding: 15px;
+  background-color: #fff;
+  width: 62px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: calc(700px/2.3);
+  left: calc(100%/2.15);
+}
