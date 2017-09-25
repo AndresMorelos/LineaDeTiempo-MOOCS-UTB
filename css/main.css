@@ -177,7 +177,7 @@ body{
 }
 .contenedor-imagen-der{
   position: absolute;
-  right: calc(100%/-4);
+  right: calc(100%/-5);
   background-color: #fff;
   border-radius: 100%;
   border: solid 1px #000;
@@ -248,4 +248,11 @@ body{
 }
 .contenedor-width-hight{
   width: 390px !important;
+}
+
+.animacion-contenedor{
+  -webkit-animation-name: show-info-anos; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: show-info-anos;
+  animation-duration: 3s;
 }
