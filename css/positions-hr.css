@@ -1,0 +1,79 @@
+hr{
+  background-color: white;
+  height: 5px;
+  width: 30px;
+  position: absolute;
+  border: #318055 solid 1px;
+}
+
+/* Transforms (degrees) */
+.hr-40deg{
+  transform: rotate(40deg);
+}
+.hr-50deg{
+  transform: rotate(50deg);
+}
+.hr-53deg{
+  transform: rotate(53deg);
+}
+.hr-58deg{
+  transform: rotate(58deg);
+}
+
+.hr--40deg{
+  transform: rotate(-40deg);
+}
+.hr--50deg{
+  transform: rotate(-50deg);
+}
+.hr--53deg{
+  transform: rotate(-53deg);
+}
+.hr--58deg{
+  transform: rotate(-58deg);
+}
+
+
+/* From 1970 to 1971*/
+.hr-1{
+  bottom: 203px;
+  left: 54px;
+}
+.hr-2{
+  bottom: 228px;
+  left: 78px;
+}
+.hr-3{
+  bottom: 258px;
+  left: 101px;
+}
+.hr-4{
+  bottom: 290px;
+  left: 122px;
+}
+.hr-5{
+  bottom: 325px;
+  left: 145px;
+}
+
+/* From 1971 to 1972*/
+.hr-6{
+  bottom: 375px;
+  left: 150px;
+}
+.hr-7{
+  bottom: 403px;
+  left: 132px;
+}
+.hr-8{
+  bottom: 430px;
+  left: 115px;
+}
+.hr-9{
+  bottom: 457px;
+  left: 98px;
+}
+.hr-10{
+  bottom: 486px;
+  left: 80px;
+}

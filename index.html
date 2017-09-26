@@ -4,18 +4,34 @@
     <meta charset="utf-8">
     <title>Línea del tiempo</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/positions.css">
+    <link rel="stylesheet" href="css/positions-hr.css">
     <link rel="stylesheet" href="css/animations.css">
   </head>
   <body>
     <div id="linea-del-tiempo">
-      <hr id="linea">
-      <div class="contenedor-info contenedor-izq ">
-        <p class="info-anos">1970 - 1997</p>
-      </div>
+      <!--HR-->
+       <!-- 1970 to 1971 -->
+         <hr class="hr--40deg hr-1">
+         <hr class="hr--50deg hr-2">
+         <hr class="hr--53deg hr-3">
+         <hr class="hr--58deg hr-4">
+         <hr class="hr--58deg hr-5">
+       <!-- 1970 to 1971 -->
 
-      <div class="contenedor-info-anos-izq display-none">
+       <!-- 1971 to 1972 -->
+         <hr class="hr-58deg hr-6">
+         <hr class="hr-58deg hr-7">
+         <hr class="hr-58deg hr-8">
+         <hr class="hr-58deg hr-9">
+         <hr class="hr-58deg hr-10">
+       <!-- 1971 to 1972 -->
+
+      <!--Fin HR-->
+
+      <div class="contenedor-info-anos-izq">
         <!--Año: 1970-->
-        <div class="contenedor-info-anos nodo-izq contenedor-1">
+        <div class="contenedor-info-anos contenedor-1970">
           <p class="info-anos">1970</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -42,7 +58,7 @@
         <!--Fin Año: 1970-->
 
         <!--Año: 1971-->
-        <div class="contenedor-info-anos nodo-izq contenedor-2">
+        <div class="contenedor-info-anos contenedor-1971">
           <p class="info-anos">1971</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin">
@@ -66,7 +82,7 @@
         <!--Fin Año: 1971-->
 
         <!--Año: 1972-->
-        <div class="contenedor-info-anos nodo-izq contenedor-3">
+        <div class="contenedor-info-anos contenedor-1972">
           <p class="info-anos">1972</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -89,7 +105,7 @@
         <!--Fin Año: 1972-->
 
         <!--Año: 1973-->
-        <div class="contenedor-info-anos nodo-izq contenedor-4">
+        <div class="contenedor-info-anos contenedor-1973">
           <p class="info-anos">1973</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin">
@@ -113,7 +129,7 @@
         <!--Fin Año: 1973-->
 
         <!--Año: 1974-1977-->
-        <div class="contenedor-info-anos nodo-izq contenedor-5">
+        <div class="contenedor-info-anos contenedor-1974-1977">
           <p class="info-anos info-anos-dos">1974 - 1977</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -122,7 +138,7 @@
               <br>
               <p class="text-info">
                 En <b>1974</b> el <b>ICFES</b> otorga a la Tecnológica de Bolívar la licencia de funcionamiento a los prorgamas de Ingeniería,
-                en <b>1976</b> a los prorgamas de Economía y en <b>1997</b> obtiene la licencia de funcionamiento de los programas.
+                en <b>1976</b> a los prorgamas de Economía y en <b>1977</b> obtiene la licencia de funcionamiento de los programas.
               </p>
             </div>
             <div class="contenedor-imagen-der">
@@ -137,7 +153,7 @@
         <!--Fin Año: 1974-1977-->
 
         <!--Año: 1978 - 1985-->
-        <div class="contenedor-info-anos nodo-izq contenedor-6">
+        <div class="contenedor-info-anos contenedor-1978-1985">
           <p class="info-anos info-anos-dos">1978-1985</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin">
@@ -160,7 +176,7 @@
         <!--Fin Año: 1978 - 1985-->
 
         <!--Año: 1989-->
-        <div class="contenedor-info-anos nodo-izq contenedor-7">
+        <div class="contenedor-info-anos display-none contenedor-1989">
           <p class="info-anos">1989</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -183,7 +199,7 @@
         <!--Fin Año: 1989-->
 
         <!--Año: 1993 - 1994-->
-        <div class="contenedor-info-anos nodo-izq contenedor-8">
+        <div class="contenedor-info-anos display-none contenedor-1993-1994">
           <p class="info-anos info-anos-dos">1993-1994</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down  contenedor-left-margin">
@@ -209,7 +225,7 @@
         <!--Fin Año: 1993 - 1994-->
 
         <!--Año: 1995-->
-        <div class="contenedor-info-anos nodo-izq contenedor-9">
+        <div class="contenedor-info-anos display-none contenedor-1995">
           <p class="info-anos">1995</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-right">
@@ -232,7 +248,7 @@
         <!--Fin Año: 1995-->
 
         <!--Año: 1997-->
-        <div class="contenedor-info-anos nodo-izq contenedor-10">
+        <div class="contenedor-info-anos display-none contenedor-1997">
           <p class="info-anos">1997</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo contenedor-down display-none contenedor-right">
@@ -255,15 +271,8 @@
         </div>
         <!--Fin Año: 1997-->
 
-      </div>
-
-      <div class="contenedor-info contenedor-der ">
-        <p class="info-anos">2000-2025</p>
-      </div>
-
-      <div class="contenedor-info-anos-der display-none">
         <!--Año: 2000-2001-->
-        <div class="contenedor-info-anos nodo-der contenedor-1-der">
+        <div class="contenedor-info-anos display-none contenedor-2000-2001">
           <p class="info-anos info-anos-dos">2000-2001</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -290,7 +299,7 @@
         <!--Fin Año: 2000 - 2001-->
 
         <!--Año: 2003-->
-        <div class="contenedor-info-anos nodo-der contenedor-2-der">
+        <div class="contenedor-info-anos display-none contenedor-2003">
           <p class="info-anos">2003</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin contenedor-width-hight">
@@ -320,7 +329,7 @@
         <!--Fin Año: 2003-->
 
         <!--Año: 2005 - 2006-->
-        <div class="contenedor-info-anos nodo-der contenedor-3-der">
+        <div class="contenedor-info-anos display-none contenedor-2005-2006">
           <p class="info-anos info-anos-dos">2005 - 2006</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -345,7 +354,7 @@
         <!--Fin Año: 2005 - 2006-->
 
         <!--Año: 2007 - 2008-->
-        <div class="contenedor-info-anos nodo-der contenedor-4-der">
+        <div class="contenedor-info-anos display-none contenedor-2007-2008">
           <p class="info-anos info-anos-dos">2007 - 2008</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin">
@@ -371,13 +380,13 @@
         <!--Fin Año: 2007 - 2008-->
 
         <!--Año: 2009 - 2011-->
-        <div class="contenedor-info-anos nodo-der contenedor-5-der mostrar_level2_1">
+        <div class="contenedor-info-anos display-none contenedor-2009-2011">
           <p class="info-anos info-anos-dos">2009 - 2011</p>
         </div>
         <!--Fin Año: 2009 - 2011-->
 
         <!--Año: 2012-->
-        <div class="contenedor-info-anos nodo-der contenedor-6-der">
+        <div class="contenedor-info-anos display-none contenedor-2012">
           <p class="info-anos ">2012</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-down contenedor-left-margin">
@@ -406,7 +415,7 @@
         <!--Fin Año: 2012-->
 
         <!--Año: 2013-->
-        <div class="contenedor-info-anos nodo-der contenedor-7-der">
+        <div class="contenedor-info-anos display-none contenedor-2013">
           <p class="info-anos">2013</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-left-margin">
@@ -431,13 +440,13 @@
         <!--Fin Año: 2013-->
 
         <!--Año: 2014-->
-        <div class="contenedor-info-anos nodo-der contenedor-8-der mostrar_level2_2">
+        <div class="contenedor-info-anos display-none contenedor-2014">
           <p class="info-anos ">2014</p>
         </div>
         <!--Fin Año: 2014-->
 
         <!--Año: 2015-->
-        <div class="contenedor-info-anos nodo-der contenedor-9-der">
+        <div class="contenedor-info-anos display-none contenedor-2015">
           <p class="info-anos">2015</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-right">
@@ -462,13 +471,13 @@
         <!--Fin Año: 2015-->
 
         <!--Año: 2016-->
-        <div class="contenedor-info-anos nodo-der contenedor-10-der mostrar_level2_3">
+        <div class="contenedor-info-anos display-none contenedor-2016">
           <p class="info-anos">2016</p>
         </div>
         <!--Fin Año: 2016-->
 
         <!--Año: 2017 - 2025-->
-        <div class="contenedor-info-anos nodo-der contenedor-11-der">
+        <div class="contenedor-info-anos display-none contenedor-2017-2025">
           <p class="info-anos info-anos-dos">2017 - 2025</p>
           <!--Contenedor de la info-->
           <div class="contenedor-info-tiempo display-none contenedor-up contenedor-right">
@@ -489,8 +498,8 @@
           <!--Fin del contenedor de la info-->
         </div>
         <!--Fin Año: 2017 - 2025-->
-
       </div>
+
 
       <!--Contenedores 2009 - 2011-->
       <div class="contenedor-info-anos-der display-none contenedor-info-der-level2-1">
@@ -878,10 +887,8 @@
       </div>
       <!--Fin contenedores 2016-->
 
-      <div id="regresar-button" class="display-none"><b>Regresar</b></div>
 
 
     </div>
-    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
