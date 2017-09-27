@@ -1,3 +1,5 @@
+
+/* Verde Universidad 318055 Verde opaco  8bc9a7 Verde opaco bordes  afdbc3*/
 *{
   margin: 0;
   padding: 0;
@@ -6,12 +8,29 @@ body{
   margin: 0;
   padding: 0;
 }
-#linea-del-tiempo{
-  width: 1107px;
-  height: 908.5px;
-  border: solid 1px #1f2d3d;
-  background-color:  #1f2d3d;
+#fondo{
+  width: 900px;
+  height: 800px;
+  border: solid 20px #afdbc3;
+  background-color:#8bc9a7;
+  border-top-left-radius:25% 25%;
+  border-bottom-right-radius:25% 25%;
 }
+#verdeover{
+  width: 662px;
+  height: 766px;
+  background-color: #318055;
+  border-bottom-right-radius:25% 25%;
+  margin-left: 212px;
+}
+#orbita{
+  background-color: transparent;
+  width: 570px;
+  height: 570px;
+  border-radius: 100%;
+  border: 6px solid #fff;
+}
+
 
 img{
   width: 60px;
@@ -26,7 +45,7 @@ img{
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  position: absolute;
+  position: fixed;
 }
 .contenedor-info-anos:hover{
   border: 2px solid #318055;
@@ -35,6 +54,7 @@ img{
   position: absolute;
   top: calc(100%/0.9);
   color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .info-anos-dos{
   width: 95px;
@@ -82,4 +102,43 @@ img{
 }
 .bg-purple{
   background-color:  #6a5299;
+}
+
+.imagen{
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 100%;
+}
+.contenedor-imagen-der{
+  position: absolute;
+  right: calc(100%/-5);
+  background-color: #fff;
+  border-radius: 100%;
+  border: solid 1px #000;
+  top: calc(100%/5);
+}
+.contenedor-rigth{
+ left: calc(100%/0.8);
+}
+.contenedor-info-background{
+  border-radius: 5%;
+  padding: 10px;
+}
+.triangle{
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  border-color: transparent white transparent transparent;
+  top: 0px;
+  left: -33px;
+}
+.contenedor-1970{
+  width: 60px;
+  height: 60px;
+}
+.contenedor-1970 .info-anos{
+  margin-left: calc(100%/5);
 }
