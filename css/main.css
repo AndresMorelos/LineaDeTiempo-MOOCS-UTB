@@ -28,7 +28,7 @@ body{
   width: 570px;
   height: 570px;
   border-radius: 100%;
-  border: 6px solid #fff;
+  border: 6px solid #afdbc3;
 }
 
 
@@ -103,6 +103,13 @@ img{
 .bg-purple{
   background-color:  #6a5299;
 }
+.bg-white{
+  background-color:  #fff;
+}
+
+.bg-green-opaque{
+  background-color: #afdbc3;
+}
 
 .imagen{
   width: 80px;
@@ -138,6 +145,7 @@ img{
 .contenedor-1970{
   width: 60px;
   height: 60px;
+  background-color: #afdbc3;
 }
 .contenedor-1970 .info-anos{
   margin-left: calc(100%/5);
