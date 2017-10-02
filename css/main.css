@@ -46,6 +46,7 @@ img{
   height: 25px;
   border-radius: 100%;
   position: fixed;
+  border: #000 solid 1px;
 }
 .contenedor-info-anos:hover{
   border: 2px solid #318055;
