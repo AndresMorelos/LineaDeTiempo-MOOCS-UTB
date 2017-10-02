@@ -295,3 +295,100 @@ img{
   transform: rotate(-50deg);
   left: 363px;
 }
+
+.rama-derecha{
+  top: 258px;
+  left: 521px;
+  position: absolute;
+}
+.triangulo-hoja-derecha{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-width: 10px 48px 18px 22px;
+  border-color: transparent transparent  #ffffff transparent;
+  border-style: solid;
+  transform: rotate(33deg);
+}
+
+.rectangulo-derecha{
+  position: absolute;
+  top: -4px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 12px 9px 123px;
+  border-color: transparent transparent #fff #fff;
+  left: 23px;
+}
+
+.triangulo-derecha-1{
+  transform: rotate(45deg);
+  left: 30px;
+}
+.triangulo-derecha-2{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-width: 10px 48px 18px 22px;
+  border-color: transparent transparent  #ffffff transparent;
+  border-style: solid;
+  transform: rotate(33deg);
+  left: 43px;
+}
+.triangulo-derecha-3{
+  left: 59px;
+}
+.triangulo-derecha-4{
+  left: 74px;
+  top: -3px;
+  transform: rotate(31deg);
+}
+.triangulo-derecha-5{
+  left: 92px;
+  top: -3px;
+  transform: rotate(45deg);
+}
+.triangulo-derecha-6{
+  left: 110px;
+}
+.triangulo-derecha-7{
+  left: 126px;
+  top: -4px;
+  transform: rotate(44deg);
+}
+.triangulo-derecha-8{
+  left: 141px;
+}
+.triangulo-derecha-9{
+  left: 156px;
+}
+.triangulo-derecha-10{
+  left: 99px;
+}
+.triangulo-derecha-11{
+  left: 119px;
+}
+.triangulo-derecha-12{
+  left: 127px;
+}
+.rama-derecha-1{
+  top: 297px;
+  transform: rotate(-76deg);
+  left: 517px;
+}
+.rama-derecha-2{
+  top: 273px;
+  transform: rotate(-39deg);
+  left: 514px;
+}
+.rama-derecha-4{
+  top: 257px;
+  transform: rotate(31deg);
+  left: 537px;
+}
+.rama-derecha-5{
+  top: 274px;
+  transform: rotate(50deg);
+  left: 519px;
+}
