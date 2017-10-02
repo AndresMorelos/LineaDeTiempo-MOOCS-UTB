@@ -8,7 +8,7 @@ body{
 }
 #linea-del-tiempo{
   width: 100%;
-  height: 700px;
+  height: 870px;
   border: solid 1px #1f2d3d;
   background-color:  #1f2d3d;
 }
@@ -44,7 +44,10 @@ body{
   position: absolute;
   color: white;
   top: calc(100%/0.9);
-  right: calc(-50%/3);
+  width: 100px;
+}
+.info-anos-dos{
+  right: calc(-50%/0.40) !important;
 }
 
 
@@ -64,38 +67,73 @@ body{
   display: none;
 }
 /*Conetenedores izquierda*/
-.izq-1{
+.contenedor-1{
   left: calc(100%/13);
 }
-.izq-2{
+.contenedor-2{
   left: calc(100%/5.9);
 }
-.izq-3{
+.contenedor-3{
   left: calc(100%/3.8);
 }
-.izq-4{
+.contenedor-4{
   left: calc(100%/2.8);
 }
-.izq-5{
+.contenedor-5{
   left: calc(100%/2.2);
 }
-.izq-6{
+.contenedor-6{
   left: calc(100%/1.8);
 }
-.izq-7{
+.contenedor-7{
   left: calc(100%/1.53);
 }
-.izq-8{
+.contenedor-8{
   left: calc(100%/1.33);
 }
-.izq-9{
+.contenedor-9{
   left: calc(100%/1.19);
 }
-.izq-10{
+.contenedor-10{
+  left: calc(100%/1.07);
+}
+
+/*Conetenedores derecha*/
+.contenedor-1-der{
+  left: calc(100%/40);
+}
+.contenedor-2-der{
+  left: calc(100%/10);
+}
+.contenedor-3-der{
+  left: calc(100%/5.6);
+}
+.contenedor-4-der{
+  left: calc(100%/3.9);
+}
+.contenedor-5-der{
+  left: calc(100%/2.9);
+}
+.contenedor-6-der{
+  left: calc(100%/2.3);
+}
+.contenedor-7-der{
+  left: calc(100%/1.9);
+}
+.contenedor-8-der{
+  left: calc(100%/1.6);
+}
+.contenedor-9-der{
+  left: calc(100%/1.39);
+}
+.contenedor-10-der{
+  left: calc(100%/1.21);
+}
+.contenedor-11-der{
   left: calc(100%/1.07);
 }
 /* info años contenedores izquierda */
-.izq-p-center{
+.p-center{
   right: calc(-50%/0.5);
 }
 
@@ -103,7 +141,7 @@ body{
 /*Contenedor de la información*/
 .contenedor-info-tiempo{
   background-color: #fff;
-  width: 280px;
+  width: 380px;
   border-radius: 5%;
   position: absolute;
   border: 6px solid #fff;
@@ -158,6 +196,15 @@ body{
 .bg-red{
     background-color: #e8544a;
 }
+.bg-green{
+  background-color:  #68c65f;
+}
+.bg-orange{
+  background-color:  #f2ac35;
+}
+.bg-purple{
+  background-color:  #6a5299;
+}
 .text-white{
   color: white;
 }
@@ -191,9 +238,14 @@ body{
 #regresar-button{
   padding: 15px;
   background-color: #fff;
-  width: 62px;
+  width: 80px;
   border-radius: 5px;
   position: absolute;
   bottom: calc(700px/2.3);
-  left: calc(100%/2.15);
+  left: 0px;
+  margin-left: 40px;
+
+}
+.contenedor-width-hight{
+  width: 390px !important;
 }
