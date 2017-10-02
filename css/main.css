@@ -36,8 +36,8 @@ img{
   width: 60px;
 
 }
-.display-none{
-  display: none;
+.visibility-hidden{
+  visibility: hidden;
 }
 
 .contenedor-info-anos{
@@ -56,6 +56,7 @@ img{
   top: calc(100%/0.9);
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  visibility: hidden;
 }
 .info-anos-dos{
   width: 95px;
@@ -63,7 +64,7 @@ img{
 }
 
 .contenedor-info-anos:hover .contenedor-info-tiempo{
-  display: block;
+  visibility: initial;
 }
 
 /*Contenedores de la información*/
@@ -154,18 +155,18 @@ img{
 
 #tallo-izquierda{
   border-style: solid;
-  border-width: 500px 40px 0px 15px;
+  border-width: 500px 90px 0px 15px;
   height: 0px;
   width: 0px;
   position: absolute;
   border-color: transparent #afdbc3 transparent transparent;
   top: 286px;
-  left: 470px;
+  left: 420px;
 }
 
 #tallo-derecha{
   border-style: solid;
-    border-width: 15px 40px 500px 1px;
+    border-width: 15px 90px 500px 1px;
     height: 0px;
     width: 0px;
     position: absolute;
