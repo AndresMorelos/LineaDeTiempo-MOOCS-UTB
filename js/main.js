@@ -20,18 +20,13 @@ var contenedor_2015 = document.getElementsByClassName('contenedor-2015')[0];
 var contenedor_2016 = document.getElementsByClassName('contenedor-2016')[0];
 var contenedor_2017_2025 = document.getElementsByClassName('contenedor-2017-2025')[0];
 //Elementos a ocultar por contenedor accionado
-var hidden_contenedor_1970 = [contenedor_1971, contenedor_1972, contenedor_1973, contenedor_1974_1977, contenedor_2007_2008, contenedor_2012, contenedor_2009_2011];
-var hidden_contenedor_1971 = [contenedor_1973, contenedor_1974_1977, contenedor_2007_2008, contenedor_2009_2011, contenedor_2012, contenedor_2013];
-var hidden_contenedor_1972 = [contenedor_1973, contenedor_1974_1977, contenedor_1978_1985, contenedor_2005_2006, contenedor_2007_2008, contenedor_2009_2011, contenedor_2012, contenedor_2013];
-var hidden_contenedor_1973 = [contenedor_1974_1977, contenedor_1978_1985, contenedor_1989, contenedor_2003, contenedor_2005_2006, contenedor_2009_2011, contenedor_2007_2008];
-var hidden_contenedor_1974_1977 = [contenedor_2007_2008, contenedor_2009_2011, contenedor_2005_2006, contenedor_2003];
-var hidden_contenedor_1978_1985 = [contenedor_2005_2006, contenedor_2003, contenedor_2000_2001];
-var hidden_contenedor_1989 = [contenedor_2003, contenedor_2000_2001, contenedor_1997];
-var hidden_contenedor_1993_1994 = [contenedor_2000_2001, contenedor_1997];
-var hidden_contenedor_1995 = [contenedor_1997];
-var hidden_contenedor_2007_2008 = [contenedor_2009_2011];
-var hidden_contenedor_2009_2011 = [contenedor_2012, contenedor_2013, contenedor_2014];
-var hidden_contenedor_2003 = [contenedor_2009_2011, contenedor_2012];
+var hidden_contenedor_1970 = [contenedor_1971, contenedor_2017_2025, contenedor_2016, contenedor_2015, contenedor_1997, contenedor_1995, contenedor_1993_1994, contenedor_1989];
+var hidden_contenedor_1971 = [contenedor_2016, contenedor_2015, contenedor_1997, contenedor_1993_1994, contenedor_1989, contenedor_1995];
+var hidden_contenedor_1972 = [contenedor_1989, contenedor_1978_1985];
+var hidden_contenedor_1973 = [contenedor_1974_1977, contenedor_1978_1985, contenedor_1989];
+var hidden_contenedor_1974_1977 = [contenedor_1978_1985, contenedor_1989];
+var hidden_contenedor_1978_1985 = [contenedor_1989];
+var hidden_contenedor_2009_2011 = [contenedor_2015, contenedor_2014];
 //funciones
 function hidden(contenedores) {
     for (var _i = 0, contenedores_1 = contenedores; _i < contenedores_1.length; _i++) {
@@ -87,41 +82,6 @@ contenedor_1978_1985.onmouseover = function () {
 };
 contenedor_1978_1985.onmouseout = function () {
     show(hidden_contenedor_1978_1985);
-};
-//1989
-contenedor_1989.onmouseover = function () {
-    hidden(hidden_contenedor_1989);
-};
-contenedor_1989.onmouseout = function () {
-    show(hidden_contenedor_1989);
-};
-//1993 - 1994
-contenedor_1993_1994.onmouseover = function () {
-    hidden(hidden_contenedor_1993_1994);
-};
-contenedor_1993_1994.onmouseout = function () {
-    show(hidden_contenedor_1993_1994);
-};
-//1995
-contenedor_1995.onmouseover = function () {
-    hidden(hidden_contenedor_1995);
-};
-contenedor_1995.onmouseout = function () {
-    show(hidden_contenedor_1995);
-};
-//2003
-contenedor_2003.onmouseover = function () {
-    hidden(hidden_contenedor_2003);
-};
-contenedor_2003.onmouseout = function () {
-    show(hidden_contenedor_2003);
-};
-//2007 - 2008
-contenedor_2007_2008.onmouseover = function () {
-    hidden(hidden_contenedor_2007_2008);
-};
-contenedor_2007_2008.onmouseout = function () {
-    show(hidden_contenedor_2007_2008);
 };
 //2009 - 2011
 contenedor_2009_2011.onmouseover = function () {

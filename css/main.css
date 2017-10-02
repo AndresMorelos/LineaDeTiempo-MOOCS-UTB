@@ -128,7 +128,7 @@ img{
   top: calc(100%/5);
 }
 .contenedor-rigth{
- left: calc(100%/0.8);
+ left: calc(100%/0.6);
 }
 .contenedor-info-background{
   border-radius: 5%;
@@ -393,4 +393,7 @@ img{
   top: 274px;
   transform: rotate(50deg);
   left: 519px;
+}
+.ul-info {
+  padding-left: 15px;
 }

@@ -21,18 +21,13 @@ let contenedor_2016:HTMLElement = <HTMLElement> document.getElementsByClassName(
 let contenedor_2017_2025:HTMLElement = <HTMLElement> document.getElementsByClassName('contenedor-2017-2025')[0];
 
 //Elementos a ocultar por contenedor accionado
-let hidden_contenedor_1970:HTMLElement[] = [contenedor_1971,contenedor_1972,contenedor_1973,contenedor_1974_1977,contenedor_2007_2008, contenedor_2012, contenedor_2009_2011];
-let hidden_contenedor_1971:HTMLElement[] = [contenedor_1973,contenedor_1974_1977,contenedor_2007_2008,contenedor_2009_2011,contenedor_2012,contenedor_2013];
-let hidden_contenedor_1972:HTMLElement[] = [contenedor_1973,contenedor_1974_1977,contenedor_1978_1985,contenedor_2005_2006,contenedor_2007_2008,contenedor_2009_2011,contenedor_2012,contenedor_2013];
-let hidden_contenedor_1973:HTMLElement[] = [contenedor_1974_1977,contenedor_1978_1985,contenedor_1989,contenedor_2003,contenedor_2005_2006,contenedor_2009_2011,contenedor_2007_2008];
-let hidden_contenedor_1974_1977:HTMLElement[] = [contenedor_2007_2008,contenedor_2009_2011,contenedor_2005_2006,contenedor_2003];
-let hidden_contenedor_1978_1985:HTMLElement[] = [contenedor_2005_2006,contenedor_2003,contenedor_2000_2001];
-let hidden_contenedor_1989:HTMLElement[] = [contenedor_2003,contenedor_2000_2001,contenedor_1997];
-let hidden_contenedor_1993_1994:HTMLElement[] = [contenedor_2000_2001,contenedor_1997];
-let hidden_contenedor_1995:HTMLElement[] = [contenedor_1997];
-let hidden_contenedor_2007_2008:HTMLElement[] = [contenedor_2009_2011];
-let hidden_contenedor_2009_2011:HTMLElement[] = [contenedor_2012,contenedor_2013,contenedor_2014];
-let hidden_contenedor_2003:HTMLElement[] = [contenedor_2009_2011,contenedor_2012];
+let hidden_contenedor_1970:HTMLElement[] = [contenedor_1971,contenedor_2017_2025,contenedor_2016,contenedor_2015,contenedor_1997, contenedor_1995, contenedor_1993_1994,contenedor_1989];
+let hidden_contenedor_1971:HTMLElement[] = [contenedor_2016,contenedor_2015,contenedor_1997,contenedor_1993_1994,contenedor_1989,contenedor_1995];
+let hidden_contenedor_1972:HTMLElement[] = [contenedor_1989,contenedor_1978_1985];
+let hidden_contenedor_1973:HTMLElement[] = [contenedor_1974_1977,contenedor_1978_1985,contenedor_1989];
+let hidden_contenedor_1974_1977:HTMLElement[] = [contenedor_1978_1985,contenedor_1989];
+let hidden_contenedor_1978_1985:HTMLElement[] = [contenedor_1989];
+let hidden_contenedor_2009_2011:HTMLElement[] = [contenedor_2015,contenedor_2014];
 
 //funciones
 function hidden(contenedores:HTMLElement[]) {
@@ -48,87 +43,52 @@ function show(contenedores:HTMLElement[]){
 }
 
 //Ocultando y mostrando los contenedores
-  //1970
-  contenedor_1970.onmouseover = function(){
+//1970
+contenedor_1970.onmouseover = function () {
     hidden(hidden_contenedor_1970);
-  }
-  contenedor_1970.onmouseout = function(){
+};
+contenedor_1970.onmouseout = function () {
     show(hidden_contenedor_1970);
-  }
-  //1971
-  contenedor_1971.onmouseover = function(){
+};
+//1971
+contenedor_1971.onmouseover = function () {
     hidden(hidden_contenedor_1971);
-  }
-  contenedor_1971.onmouseout = function(){
+};
+contenedor_1971.onmouseout = function () {
     show(hidden_contenedor_1971);
-  }
-  //1972
-  contenedor_1972.onmouseover = function(){
+};
+//1972
+contenedor_1972.onmouseover = function () {
     hidden(hidden_contenedor_1972);
-  }
-  contenedor_1972.onmouseout = function(){
+};
+contenedor_1972.onmouseout = function () {
     show(hidden_contenedor_1972);
-  }
-  //1973
-  contenedor_1973.onmouseover = function(){
+};
+//1973
+contenedor_1973.onmouseover = function () {
     hidden(hidden_contenedor_1973);
-  }
-  contenedor_1973.onmouseout = function(){
+};
+contenedor_1973.onmouseout = function () {
     show(hidden_contenedor_1973);
-  }
-  //1974 - 1977
-  contenedor_1974_1977.onmouseover = function(){
+};
+//1974 - 1977
+contenedor_1974_1977.onmouseover = function () {
     hidden(hidden_contenedor_1974_1977);
-  }
-  contenedor_1974_1977.onmouseout = function(){
+};
+contenedor_1974_1977.onmouseout = function () {
     show(hidden_contenedor_1974_1977);
-  }
-  //1978 - 1985
-  contenedor_1978_1985.onmouseover = function(){
+};
+//1978 - 1985
+contenedor_1978_1985.onmouseover = function () {
     hidden(hidden_contenedor_1978_1985);
-  }
-  contenedor_1978_1985.onmouseout = function(){
+};
+contenedor_1978_1985.onmouseout = function () {
     show(hidden_contenedor_1978_1985);
-  }
-  //1989
-  contenedor_1989.onmouseover = function(){
-    hidden(hidden_contenedor_1989);
-  }
-  contenedor_1989.onmouseout = function(){
-    show(hidden_contenedor_1989);
-  }
-  //1993 - 1994
-  contenedor_1993_1994.onmouseover = function(){
-    hidden(hidden_contenedor_1993_1994);
-  }
-  contenedor_1993_1994.onmouseout = function(){
-    show(hidden_contenedor_1993_1994);
-  }
-  //1995
-  contenedor_1995.onmouseover = function(){
-    hidden(hidden_contenedor_1995);
-  }
-  contenedor_1995.onmouseout = function(){
-    show(hidden_contenedor_1995);
-  }
-  //2003
-  contenedor_2003.onmouseover = function(){
-    hidden(hidden_contenedor_2003);
-  }
-  contenedor_2003.onmouseout = function(){
-    show(hidden_contenedor_2003);
-  }
-  //2007 - 2008
-  contenedor_2007_2008.onmouseover = function(){
-    hidden(hidden_contenedor_2007_2008);
-  }
-  contenedor_2007_2008.onmouseout = function(){
-    show(hidden_contenedor_2007_2008);
-  }
-  //2009 - 2011
-  contenedor_2009_2011.onmouseover = function(){
+};
+//2009 - 2011
+contenedor_2009_2011.onmouseover = function () {
     hidden(hidden_contenedor_2009_2011);
-  }
-  contenedor_2009_2011.onmouseout = function(){
+};
+contenedor_2009_2011.onmouseout = function () {
     show(hidden_contenedor_2009_2011);
-  }
+};
