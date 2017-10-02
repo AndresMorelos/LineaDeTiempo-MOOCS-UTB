@@ -32,6 +32,7 @@ let hidden_contenedor_1993_1994:HTMLElement[] = [contenedor_2000_2001,contenedor
 let hidden_contenedor_1995:HTMLElement[] = [contenedor_1997];
 let hidden_contenedor_2007_2008:HTMLElement[] = [contenedor_2009_2011];
 let hidden_contenedor_2009_2011:HTMLElement[] = [contenedor_2012,contenedor_2013,contenedor_2014];
+let hidden_contenedor_2003:HTMLElement[] = [contenedor_2009_2011,contenedor_2012];
 
 //funciones
 function hidden(contenedores:HTMLElement[]) {
@@ -109,6 +110,13 @@ function show(contenedores:HTMLElement[]){
   }
   contenedor_1995.onmouseout = function(){
     show(hidden_contenedor_1995);
+  }
+  //2003
+  contenedor_2003.onmouseover = function(){
+    hidden(hidden_contenedor_2003);
+  }
+  contenedor_2003.onmouseout = function(){
+    show(hidden_contenedor_2003);
   }
   //2007 - 2008
   contenedor_2007_2008.onmouseover = function(){
