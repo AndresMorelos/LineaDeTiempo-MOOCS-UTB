@@ -22,12 +22,13 @@ let contenedor_2017_2025:HTMLElement = <HTMLElement> document.getElementsByClass
 
 //Elementos a ocultar por contenedor accionado
 let hidden_contenedor_1970:HTMLElement[] = [contenedor_1971,contenedor_2017_2025,contenedor_2016,contenedor_2015,contenedor_1997, contenedor_1995, contenedor_1993_1994,contenedor_1989];
-let hidden_contenedor_1971:HTMLElement[] = [contenedor_2016,contenedor_2015,contenedor_1997,contenedor_1993_1994,contenedor_1989,contenedor_1995];
+let hidden_contenedor_1971:HTMLElement[] = [contenedor_2016,contenedor_2015,contenedor_1997,contenedor_1993_1994,contenedor_1989,contenedor_1995,contenedor_2014,contenedor_2000_2001];
 let hidden_contenedor_1972:HTMLElement[] = [contenedor_1989,contenedor_1978_1985];
 let hidden_contenedor_1973:HTMLElement[] = [contenedor_1974_1977,contenedor_1978_1985,contenedor_1989];
 let hidden_contenedor_1974_1977:HTMLElement[] = [contenedor_1978_1985,contenedor_1989];
 let hidden_contenedor_1978_1985:HTMLElement[] = [contenedor_1989];
 let hidden_contenedor_2009_2011:HTMLElement[] = [contenedor_2015,contenedor_2014];
+let hidden_contenedor_2012:HTMLElement[] = [contenedor_2015,contenedor_2014];
 
 //funciones
 function hidden(contenedores:HTMLElement[]) {
@@ -91,4 +92,11 @@ contenedor_2009_2011.onmouseover = function () {
 };
 contenedor_2009_2011.onmouseout = function () {
     show(hidden_contenedor_2009_2011);
+};
+//2012
+contenedor_2012.onmouseover = function () {
+    hidden(hidden_contenedor_2012);
+};
+contenedor_2012.onmouseout = function () {
+    show(hidden_contenedor_2012);
 };
