@@ -14,7 +14,7 @@ Tomadas de [IconFinder](https://www.iconfinder.com/)
 
 ### Método de uso
 ```html
-<iframe src="https://andresmorelos.github.io/LineaDeTiempo-MOOCS-UTB/" style="height: 870px;
+<iframe src="http://ceadutb.github.io/LineaDeTiempo-MOOCS-UTB/" style="height: 870px;
  width: 100%;"></iframe>
 ```
 ## Licencia
