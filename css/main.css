@@ -397,3 +397,12 @@ img{
 .ul-info {
   padding-left: 15px;
 }
+
+.button-download{
+  text-decoration: none;
+  background-color: transparent;
+  color: #2B3988;
+  padding: 3px;
+  border-radius:5%;
+  border: 2px #2B3988 solid;
+}
